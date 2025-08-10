@@ -12,7 +12,7 @@ import re
 class IntegralMasterPro:
     def __init__(self, root):
         self.root = root
-        self.root.title("∫ IntegralMaster Pro")
+        self.root.title("El Yamiyecto")
         self.root.geometry("1200x800")
         self.root.minsize(1000, 700)
         self.root.configure(bg="#2c3e50")
@@ -105,7 +105,7 @@ class IntegralMasterPro:
         title_frame = ttk.Frame(logo_frame)
         title_frame.pack(side=tk.LEFT, fill=tk.X, expand=True)
         
-        ttk.Label(title_frame, text="IntegralMaster Pro", font=('Arial', 16, 'bold')).pack(anchor=tk.W)
+        ttk.Label(title_frame, text="IntegralMaster Pro 3000 UPV ", font=('Arial', 16, 'bold')).pack(anchor=tk.W)
         ttk.Label(title_frame, text="Constructor y Visualizador de Integrales", 
                  font=('Arial', 10)).pack(anchor=tk.W)
         
